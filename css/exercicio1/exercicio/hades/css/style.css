@@ -7,7 +7,7 @@
     :root{
     --background:#2D2929;
     --card:#251A18;
-    --button:#EBBE00;
+    --button:#8F33AB;
     --text:#000000;
 
     }
@@ -18,7 +18,19 @@ body{
 
 header {
  width: 100%;
- height: 3.75rem;
+ height:3.75rem;
  display: flex;
  background-color: var(--card);
+}
+
+main{
+    display: block;
+    margin-top: 6.25rem;
+    width:62.5rem;
+    height:50rem;
+    background-color: var(--card);
+    border-radius:8px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
